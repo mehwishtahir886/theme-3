@@ -1,0 +1,570 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.container{
+    margin-top:-15vh;
+    background-image: url('./img/download.jpg');
+    background-size: 100% 100%;
+    width:100%;
+    height:80vh;
+}
+.nav{
+    position:fixed;
+    z-index:1;
+    width:100%;
+    height:13vh;
+    animation-name:nav;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-direction:forwards;
+}
+@keyframes nav{
+    0%{ background:linear-gradient(red,  wheat,forestgreen);opacity: 0.6;;}
+    20%{ background:linear-gradient(purple,antiquewhite,seagreen);opacity:.7;}
+    40%{ background:linear-gradient(red,  silver,purple);opacity:.6;}
+    60%{ background:linear-gradient(forestgreen, whitesmoke,red);opacity:.6;}
+    80%{ background:linear-gradient(seagreen, grey,purple);opacity:.7;}
+    100%{ background:linear-gradient( green,wheat, red);opacity:.6;}
+}
+.nav h1{
+    position:absolute;
+    padding:1.5rem 3rem;
+    text-transform:uppercase;
+    color:white;
+    font-size:2.8rem;
+}
+.nav h1 span{
+    color:black;
+}
+.nav ul{
+    position:absolute;
+    left:40rem;
+}
+.nav ul li{
+    font-size:1.3rem;
+    float:left;
+    margin:1.3rem 1.5rem;
+    text-transform:capitalize;
+    color:white;
+    background:orange;
+    border:1px solid white;
+    padding:.8rem 1rem;
+    border-radius:25px;
+}
+.container h2{
+    position:relative;
+    top:20vh;
+    color:white;
+    font-size:3rem;
+    margin:15vh 20vh;
+}
+.container h2 span{
+    color:forestgreen;
+}
+.container p{
+    position:absolute;
+    color:white;
+    top:43vh;
+    font-size:1.4rem;
+    margin:-15vh 20vh;
+}
+.container button{
+    position:absolute;
+    top:50vh;
+    background:linear-gradient(to top left,red, orange,red);
+    outline:none;
+    border:1px solid white;
+    left:25vh;
+    border-radius:30px;
+    padding:1rem 2rem;
+    text-transform:capitalize;
+}
+.box3{
+    position:relative;
+    width:100%;
+    height:40vh;
+    bottom:0;
+}
+.one{
+    position:absolute;
+    width:33.3%;
+    height:100%;
+    background:forestgreen;
+}
+.two{
+    position:absolute;
+    width:33.3%;
+    height:100%;
+    background:black;
+    left:33.3%;
+}
+.three{
+    position:absolute;
+    width:33.3%;
+    height:100%;
+    background:forestgreen;
+    left:66.6%;
+}
+.four i{
+    position:absolute;
+    left:45%;
+    top:1rem;
+    width:5vh;
+    height:5vh;
+    padding:1.5rem 1.5rem;
+    font-size:2.5rem;
+    background:grey;
+    border-radius:50%;
+}
+.five{
+    position:absolute;
+    color:white;
+    left:30%;
+    top:15vh;
+}
+.five p{
+    text-align:center;
+}
+.five span{
+    position:absolute;
+    color:blue;
+
+    text-transform:uppercase;
+    left:30%;
+    top:8rem;
+    font-size:1.3rem;
+}
+.page2{
+    width:100%;
+    height:80vh;
+}
+.page2 h1{
+    font-size:2rem;
+    text-align:center;
+    text-transform:uppercase;
+    color:purple;
+    margin-top:5vh;
+
+}
+.first{
+    position:relative;
+    height:25vh;
+    width:35%;
+    display:inline-block;
+    top:13vh;
+    margin-left:8%;
+    border:1px solid transparent;
+    border-radius:20px;
+    transition-duration:1s;
+    transition-property:top;
+}
+.first:hover{
+    box-shadow:2px 2px 8px 5px grey;
+    top:15vh;
+}
+.first i{
+    position:relative;
+    top:1rem;
+    width:5vh;
+    height:5vh;
+    top:5vh;
+    left:10%;
+    padding:1.5rem 1.5rem;
+    font-size:2.5rem;
+    background:orange;
+    border-radius:50%;
+}
+.first h2{
+    position:relative;
+    color:grey;
+    left:32%;
+    top:-8vh;
+    text-transform:capitalize;
+}
+.first p{
+    position:relative;
+    color:silver;
+    left:28%;
+    top:-6vh;
+    font-size:1.4rem;
+    text-transform:capitalize;
+}
+.page3{
+    height:80vh;
+    width:100%;
+    background:white;
+}
+.img{
+    width:50%;
+    height:100%;
+    background-image: url('./img/forth.jpg');
+    background-size:100% 100%;
+}
+.box6{
+    position:relative;
+    height:99.9%;
+    width:50%;
+    left:50%;
+    top:-80vh;
+    border:1px solid silver;
+}
+.box-s{
+    height:49.8%;
+    width:33%;
+    float:left;
+    border:1px solid silver;
+}
+.box-s:hover{
+    background:blue;
+}
+.box-s img{
+    position:relative;
+    width:7vh;
+    height:7vh;
+    top:2vh;
+    left:5vh;
+}
+.box-s h1{
+    position:relative;
+    text-transform:capitalize;
+    color:orange;
+    left:5vh;
+    top:3vh;
+}
+.box-s p{
+    color:grey;
+    padding:8vh 5vh;
+    font-size:1.4rem;
+}
+.page4{
+    position:relative;
+    height:50vh;
+    width:100%;
+    top:-70vh;
+    background-image: url(./img/world2.jpg);
+    background-size:100% 100%;
+}
+.bar1{
+    position:absolute;
+    float:left;
+    left:7%;
+    width:15%;
+    height:30vh;
+    top:10vh;
+    transition-duration:3s;
+    transition-property:all;
+}
+.bar1:hover{
+    background:orangered;
+    border-radius:60%;
+}
+.bar2{
+    position:absolute;
+    float:left;
+    left:29%;
+    width:15%;
+    height:30vh;
+    top:10vh;
+    transition-duration:3s;
+    transition-property:all;
+}
+.bar2:hover{
+    background:orangered;
+    border-radius:60%;
+}
+.bar3{
+    position:absolute;
+    float:left;
+    left:51%;
+    width:15%;
+    height:30vh;
+    top:10vh;
+    transition-duration:3s;
+    transition-property:all;
+}
+.bar3:hover{
+    background:orangered;
+    border-radius:60%;
+}
+.bar4{
+    position:absolute;
+    float:left;
+    left:72%;
+    width:15%;
+    height:30vh;
+    top:10vh;
+    transition-duration:3s;
+    transition-property:all;
+    
+}
+.bar4:hover{
+    background:orangered;
+    border-radius:60%;
+}
+.bar1 h1{
+    color:white;
+    font-size:3rem;
+    text-align:center;
+    margin-top:10vh;
+}
+.bar2 h1{
+    color:white;
+    font-size:3rem;
+    text-align:center;
+    margin-top:10vh;
+}
+.bar3 h1{
+    color:white;
+    font-size:3rem;
+    text-align:center;
+    margin-top:10vh;
+}
+.bar4 h1{
+    color:white;
+    font-size:3rem;
+    text-align:center;
+    margin-top:10vh;
+}
+
+.bar1 p{
+    color:white;
+    font-size:1.8rem;
+    text-align:center;
+}
+.bar2 p{
+    color:white;
+    font-size:1.8rem;
+    text-align:center;
+}
+.bar3 p{
+    color:white;
+    font-size:1.8rem;
+    text-align:center;
+}
+.bar4 p{
+    color:white;
+    font-size:1.8rem;
+    text-align:center;
+}
+.page5{
+    position:relative;
+    width:100%;
+    height:120vh;
+    top:-70vh;
+}
+.one-1{
+    height:50vh;
+    width:50%;
+    float:left;
+}
+.one-1 img{
+    height:100%;
+    width:100%;
+}
+.one-1 h1 {
+    
+    color:black;
+    font-size:1.8rem;
+    margin-left:10vh;
+    margin-top:10vh;
+}
+.one-1 h2 {
+    margin-left:10vh;
+    color:orange;
+    font-size:2rem;
+    margin-top:5vh;
+}
+.one-1 p {
+    color:orange;
+    font-size:1.6rem;
+    margin-left:10vh;
+}
+.page6{
+    position:relative;
+    width:100%;
+    height:115vh;
+    top:-35vh;
+    background:silver;
+}
+.page6 h1{
+    position:relative;
+    top:-20vh;
+    color:blue;
+    text-align: center;
+}
+.two-2{
+    height:33vh;
+    width:33%;
+    float:left;
+}
+.two-2 img{
+    width:100%;
+    height:100%;
+}
+.page6 button{
+    position:absolute;
+    top:105vh;
+    background:linear-gradient(to top left,red, orange,red);
+    outline:none;
+    border:2px solid white;
+    left:45%;
+    border-radius:30px;
+    padding:1rem 3rem;
+    font-size:1rem;
+    text-transform:capitalize;
+}
+.page7{
+    position:relative;
+    height:70vh;
+    width:100%;
+    top:-30vh;
+}
+.page7 h1{
+    text-align:center;
+    font-size:2.5rem;
+}
+.three-3{
+    height:60vh;
+    margin-top:20vh;
+    width:25%;
+    float:left;
+    margin-left:5%;
+    text-align:center;
+}
+.three-3:hover{
+box-shadow:2px 2px 6px 5px grey;
+}
+.three-3 ppp{
+    color:black;
+    font-size:2.5rem;
+}
+.three-3 ppp img{
+    position:relative;
+    color:grey;
+    height:7rem;
+    width:7rem;
+    left:3rem;
+    top:3rem;
+}
+.three-3 h2 span{
+ color:blue;
+font-size:3rem;
+}
+.three-3 p img{
+    color:black;
+    height:1rem;
+    width:1rem;
+   
+}
+.three-3 button{
+    margin-top:5vh;
+    background:linear-gradient(to top left,red, orange,red);
+    outline:none;
+    border:2px solid white;
+    border-radius:30px;
+    padding:1rem 2rem;
+    font-size:1rem;
+    text-transform:capitalize;
+}
+.page8{
+    width:100%;
+    height:100vh;     
+}
+.page8 h1{
+    position:absolute;
+    color:purple;
+    font-size:3rem;
+    left:45%;
+}
+.img3{
+    width:28%;
+    height:35vh;
+    display:inline-block;
+    margin-left:5%;
+    margin-top:3vh;
+}
+}.page8 img3 img{
+    width:100%;
+    height:100%;
+}
+.four-4{
+    width:28%;
+    height:35vh;
+    display:inline-block;
+    margin-left:5%;
+    border:1px solid grey;
+    margin-top:3vh;
+
+}
+.four-4:hover{
+    box-shadow:2px 3px 5px 5px silver;
+}
+.four-4 h2{
+    color:black;
+    margin-top:3vh;
+    margin-left:3vh;
+    font-size:2rem;
+}
+.four-4 pp{
+    color:silver;
+    margin-top:5vh;
+    margin-left:3vh;
+    font-size:1.3rem;
+}
+.four-4 p{
+    color:grey;
+    margin-top:5vh;
+    margin-left:3vh;
+    font-size:1.3rem;
+}
+.page9{
+    height:40vh;
+    width:100%;
+    background:black;
+}
+.bar-left{
+    position:absolute;
+    left:5%;
+    color:white;
+    font-size:1.5rem;
+}
+.page9 h1{
+    color:white;
+    font-size:3rem;
+    text-align:center;
+}
+.bar-left p{
+    margin-top:2vh;
+}
+.bar-left i{
+    font-size:2rem;
+}
+.bar-left span{
+    font-size:1.2rem;
+    margin-left:3vh;
+}
+.bar-right{
+    position:absolute;
+    right:7%;
+    color:white;
+    font-size:2.5rem;
+}
+.last{
+    position:relative;
+    top:21vh;
+    color:white;
+    font-size:1.7rem;
+    text-align:center;
+}
+.last span{
+    color:orangered;
+}
+.last ss{
+    color:forestgreen;
+}
+.last sss{
+    color:red;
+}
